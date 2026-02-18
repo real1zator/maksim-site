@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Максим — Грузоперевозки</title>
-  <meta name="description" content="Здpавствуйте! Ocущecтвляем грузопеpевoзки, пеpеезды, доcтавки пo гоpoду Kaлинингpад и Калинингpадcкoй oбласти. Звоните в любое время, стoимocть зaвиcит от aвтo и других уcлoвий. Haличный и Безнaличный pасчет. В нaличиe имeетcя две мaшины: 1.">
-    <style>@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap');
+  <meta name="description" content="ЗДРAВСТBУЙTЕ, меня зовут Макcим и занимaюсь: 🚀ДОСTАBКОЙ И ПEPEBOЗKОЙ МАЛOГАБAPИTНЫХ ГРУЗОВ 📦 ПЕРЕЕЗДЫ (ЧACTHИK) ✅ Пеpeвозки по Kaлинингpaду и облacти Перевозкa: 🔹Cтpоймaтеpиaлов 🔹Личныe вeщи 🔹Бытовая теxника 🔹Мeбель 🔹Пepeeзды 🔹Дoстaвка co с.">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap');
 :root {
-  --bg:#f7fcfa;--surface:#ffffff;--text:#102a23;--muted:#4a6b5f;
-  --primary:#0f766e;--accent:#22c55e;--dark:#0b1e1a;
-  --font-body:'Plus Jakarta Sans',system-ui,sans-serif;
-  --font-title:'Poppins','Plus Jakarta Sans',system-ui,sans-serif;
+  --bg:#0b0f19;--surface:#131a2a;--text:#f1f5f9;--muted:#94a3b8;
+  --primary:#f59e0b;--accent:#fb7185;--dark:#05070d;
+  --font-body:'Outfit',system-ui,sans-serif;
+  --font-title:'Sora','Outfit',system-ui,sans-serif;
   --radius:16px;--shadow:0 20px 60px rgba(2,6,23,.12);
 }
 * { box-sizing:border-box; }
@@ -201,38 +201,40 @@ input,textarea { width:100%; border-radius:12px; border:1.5px solid color-mix(in
         .btn { border-radius: 999px; }
         
 
-        h1,h2 { max-width: 15ch; }
-        .hero__content--center { max-width: 980px; }
-        .works-story .story p { font-size: 1.1rem; }
+        .timeline article,.rows article { border-left: 3px solid color-mix(in oklab, var(--primary) 45%, transparent); }
         
   </style>
 </head>
 <body>
   
-<header class="header header--split">
-  <div class="topbar"><div class="container topbar__row"><span>Работаем 24/7 • Подача от 30 минут</span><a href="tel:+7 (900) 000-00-00">+7 (900) 000-00-00</a></div></div>
-  <div class="container navrow"><div class="logo">Максим</div><span class="logo-kicker">ГРУЗОПЕРЕВОЗКИ</span><nav><a href="#services">Услуги</a><a href="#works">Портфолио</a><a href="#reviews">Отзывы</a><a href="#contact">Контакты</a></nav><a class="btn btn--sm" href="tel:+7 (900) 000-00-00">Позвонить</a></div>
+<header class="header header--classic">
+  <div class="container navrow"><div class="logo">Максим</div><span class="logo-kicker">ГРУЗОПЕРЕВОЗКИ</span><nav><a href="#services">Услуги</a><a href="#works">Работы</a><a href="#reviews">Отзывы</a><a href="#contact">Контакты</a></nav><a class="btn btn--sm" href="tel:+7 (900) 000-00-00">+7 (900) 000-00-00</a></div>
 </header>
 
-        <div class="avito-meta"><span>TF:newspaper-v10.2</span><span>Kaliningrad</span><span>+7 (900) 000-00-00</span></div>
+        <div class="avito-meta"><span>TF:saasland-v2.1.0</span><span>Kaliningrad</span><span>+7 (900) 000-00-00</span></div>
   
-<section class="hero hero--minimal" style="--hero:url('photo_1.jpg')">
-  <div class="overlay"></div>
-  <div class="container hero__content">
-    <h1>Максим</h1>
-    <p>Здpавствуйте! Ocущecтвляем грузопеpевoзки, пеpеезды, доcтавки пo гоpoду Kaлинингpад и Калинингpадcкoй oбласти. Звоните в любое время, стoимocть зaвиcит от aвтo и других уcлoвий. Haличный и Безнaличный pасчет. В нaличиe имeетcя две мaшины: 1.</p>
-    <div class="hero__actions"><a class="btn" href="#contact">Получить предложение</a></div>
+<section class="hero hero--stats">
+  <div class="container grid2">
+    <div>
+      <p class="eyebrow">ТОЧНОСТЬ • СКОРОСТЬ • БЕЗОПАСНОСТЬ</p>
+      <h1>Максим</h1>
+      <p>ЗДРAВСТBУЙTЕ, меня зовут Макcим и занимaюсь: 🚀ДОСTАBКОЙ И ПEPEBOЗKОЙ МАЛOГАБAPИTНЫХ ГРУЗОВ 📦 ПЕРЕЕЗДЫ (ЧACTHИK) ✅ Пеpeвозки по Kaлинингpaду и облacти Перевозкa: 🔹Cтpоймaтеpиaлов 🔹Личныe вeщи 🔹Бытовая теxника 🔹Мeбель 🔹Пepeeзды 🔹Дoстaвка co с.</p>
+      <a class="btn" href="tel:+7 (900) 000-00-00">+7 (900) 000-00-00</a>
+    </div>
+    <div class="panel" style="background-image:url('photo_1.jpg')">
+      <div class="statgrid"><div><strong>30 мин</strong><span>подача</span></div><div><strong>365</strong><span>дней в году</span></div><div><strong>100%</strong><span>сохранность</span></div><div><strong>0 ₽</strong><span>скрытых доплат</span></div></div>
+    </div>
   </div>
 </section>
 
   
-<section id="services" class="section section--muted">
+<section id="services" class="section">
   <div class="container">
-    <h2>Пакеты и тарифы</h2>
-    <div class="prices">
-      <article><h3>Start</h3><p class="price">от 2 000 ₽</p><ul><li>Подача авто</li><li>1 грузчик</li><li>До 2 часов</li></ul></article>
-      <article class="featured"><h3>Business</h3><p class="price">от 5 000 ₽</p><ul><li>Команда 2-3 человека</li><li>Упаковка</li><li>Фиксированная цена</li></ul></article>
-      <article><h3>Premium</h3><p class="price">от 9 000 ₽</p><ul><li>Полный переезд под ключ</li><li>Страхование</li><li>Личный менеджер</li></ul></article>
+    <h2>Почему нас выбирают</h2>
+    <div class="rows">
+      <article><h3>Материальная ответственность</h3><p>Фиксируем состояние имущества и отвечаем по договору.</p></article>
+      <article><h3>Точная подача без опозданий</h3><p>Планируем маршрут и соблюдаем сроки даже в пиковые часы.</p></article>
+      <article><h3>Опытные грузчики</h3><p>Команды с практикой перевозки сложных и хрупких грузов.</p></article>
     </div>
   </div>
 </section>
@@ -253,10 +255,10 @@ input,textarea { width:100%; border-radius:12px; border:1.5px solid color-mix(in
 </section>
 
   
-<section id="works" class="section works-story">
-  <div class="container grid2">
-    <div class="story"><h2>Портфолио реальных задач</h2><p>Сложные переезды, хрупкие грузы, срочные маршруты. Каждый кейс мы ведём по чек-листу.</p><ul><li>Переезд 4-комнатной квартиры за 1 день</li><li>Офис 80 рабочих мест за выходные</li><li>Перевозка складского оборудования</li></ul></div>
-    <div class="story-grid"><img src="photo_2.jpg" alt=""><img src="photo_3.jpg" alt=""><img src="photo_4.jpg" alt=""><img src="photo_5.jpg" alt=""></div>
+<section id="works" class="section section--dark">
+  <div class="container">
+    <h2>Недавние работы</h2>
+    <div class="strip"><img src="photo_2.jpg" alt=""><img src="photo_3.jpg" alt=""><img src="photo_4.jpg" alt=""><img src="photo_5.jpg" alt=""><img src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1600&auto=format&fit=crop" alt=""></div>
   </div>
 </section>
 
